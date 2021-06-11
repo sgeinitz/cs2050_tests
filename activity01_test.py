@@ -22,7 +22,7 @@ class TestAssign1Functions(unittest.TestCase):
         r = 1.0
         expected_value = 2 * 3.14159 * r
         actual_value = circleCircumference(r)
-        self.assertAlmostEqual(actual_value, expected_value, 4, \
+        self.assertAlmostEqual(actual_value, expected_value, 2, \
                 "incorrect circumference for r = 1")
 
     def testCircleCircumferenceR3(self):
@@ -30,7 +30,7 @@ class TestAssign1Functions(unittest.TestCase):
         r = 3.0
         expected_value = 2 * 3.14159 * r
         actual_value = circleCircumference(r)
-        self.assertAlmostEqual(actual_value, expected_value, 4, \
+        self.assertAlmostEqual(actual_value, expected_value, 2, \
                 "incorrect circumference for r = 3")
 
     def testCircleAreaR1(self):
