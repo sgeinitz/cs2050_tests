@@ -2,7 +2,7 @@ import unittest
 from activity01 import *
 
 
-class TestAssign1Functions(unittest.TestCase):
+class TestActivity01Functions(unittest.TestCase):
     """ A class derived from unittest.TestCase to test activity01.py functions """
 
     def testHelloWorldNormal(self):
